@@ -13,6 +13,7 @@ import org.apache.commons.logging.LogFactory;
 public class RestAssuredRequestFilter implements Filter {
     private static final Log log = LogFactory.getLog(RestAssuredRequestFilter.class);
     private int number;
+    private String str;
 
     @Override
     public Response filter(FilterableRequestSpecification requestSpec, FilterableResponseSpecification responseSpec, FilterContext ctx) {
